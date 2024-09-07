@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>free time calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="lewy">
+        <p class="k">Other calculators:</p>
+        <ul>
+            <li><a href="https://main--fructose-content.netlify.app">fructose content</a></li>
+            <li><a href="#" target="_blank">??</a></li>
+            <li><a href="#">??</a></li>
+        </ul>
+    </section>
+    <section class="prawy">
+        <p class="k">Help?</p>
+        <ul>
+            <li><a href="#" target="_blank">How to find a job?</a></li>
+            <li><a href="#" target="_blank">How to spend less time commuting?</a></li>
+            <li><a href="#" target="_blank">Why I should sleep?</a></li>
+        </ul>
+    </section>
+    <section class="border">
+        <h1>Free time per year calculator</h1>
+    </section>
+    <section class="kalkulator">
+        <img src="clock.gif" alt="zegar" class="zegar"> <br>
+        <section class="kwadrat">
+        How many hours a week do you work? <input type="number" id="praca" value="0"> h<span class="red">*</span> <br> <br>
+        How long does your commute take each day? <input type="text" id="dojazd" value="0.5" step="0.1"> h<br> <br>
+        How many hours do you sleep? <input type="text" id="sen" value="0.5" step="0.1"> h<span class="red">*</span> <br> <br>
+        <button onclick="obliczenia()">Confirm</button>
+        <h4 id="godziny"></h4>
+        <h4 id="dni"></h4>
+        <h4 id="procent"></h4>
+        <h4 id="porownanie1"></h4>
+        </section>
+    </section>
+    <section class="footer">
+        <h4>by <a href="https://www.youtube.com/@kalafioreg" target="_blank">kalafioreg<img src="mee.png" alt="me" class="mee"></a></h4>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

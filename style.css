@@ -1,0 +1,171 @@
+*
+{
+    text-align: center;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+}
+body
+{
+    height: 100%;
+}
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background: #202023;
+}
+::-webkit-scrollbar-thumb {
+    background: #575963;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #73757b;
+}
+.border {
+    padding: 20px;
+    background-color: rgb(35, 40, 53);
+    letter-spacing: 1px;
+    color: white;
+    height: 40px;
+}
+
+.lewy {
+    background-color: rgb(35, 40, 53);
+    float: left;
+    height: 680px;
+    width: 200px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.prawy {
+    background-color: rgb(35, 40, 53);
+    float: right;
+    height: 680px;
+    width: 200px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.kalkulator {
+    background-color: rgb(53, 61, 81);
+    color: white;
+    height: 569px;
+    padding-bottom: 15px !important;
+    padding: 30px;
+    
+}
+
+input
+{
+    width: 40px;
+    height: 30px;
+    background-color: rgb(98, 127, 153);
+    color: rgb(35, 40, 53);
+    border-radius: 10px;
+    border: none;
+}
+input:hover
+{
+    background-color: rgb(35, 40, 53);
+    color: white;
+    
+}
+button 
+{
+    background-color: rgb(98, 127, 153);
+    color: rgb(35, 40, 53);
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    border: none;
+    cursor: pointer;
+    font-size: medium;
+}
+button:hover
+{
+    background-color: rgb(35, 40, 53); 
+    color: white;
+}
+.footer
+{
+    background-color: rgb(35, 40, 53);
+    color: white;
+    padding: 5px;
+}
+a 
+{
+    color: white;
+    letter-spacing: 1px;
+}
+a:hover 
+{
+    color: rgb(98, 127, 153);
+}
+ul, p
+{
+    margin-top: 100px;
+}
+h4 
+{
+    margin: 5px;
+}
+h1
+{
+    font-size: 30px;
+}
+.zegar
+{
+    height: 150px;
+    margin-bottom: 20px;
+}
+.more
+{
+    color: rgb(0, 255, 0);
+}
+.less
+{
+    color: rgb(255, 63, 63);
+}
+.k 
+{
+    background-color: rgb(98, 127, 153);
+    color: rgb(35, 40, 53);
+    padding: 10px;
+    border-radius: 10px;
+}
+li
+{
+    margin-bottom: 10px;
+}
+.kwadrat
+{
+    background-color: #1c1c2b;
+    width: 450px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    justify-content: center; 
+    align-items: center;
+}
+.red 
+{
+    color: rgb(255, 63, 63);
+}
+ul 
+{
+    background-color: #1c1c2b;
+    border-radius: 20px;
+    padding: 20px;
+}
+.mee 
+{
+    height: 40px;
+    width: 40px;
+    padding-left: 8px;
+    vertical-align: middle;
+}
