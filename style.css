@@ -30,7 +30,7 @@ body
     height: 40px;
 }
 
-.lewy {
+.left {
     background-color: rgb(35, 40, 53);
     float: left;
     height: 680px;
@@ -41,7 +41,7 @@ body
     letter-spacing: 1px;
 }
 
-.prawy {
+.right {
     background-color: rgb(35, 40, 53);
     float: right;
     height: 680px;
@@ -51,7 +51,7 @@ body
     color: white;
 }
 
-.kalkulator {
+.mid {
     background-color: rgb(53, 61, 81);
     color: white;
     height: 569px;
@@ -118,7 +118,7 @@ h1
 {
     font-size: 30px;
 }
-.zegar
+.clock
 {
     height: 150px;
     margin-bottom: 20px;
@@ -142,7 +142,7 @@ li
 {
     margin-bottom: 10px;
 }
-.kwadrat
+.main
 {
     background-color: #1c1c2b;
     width: 450px;
